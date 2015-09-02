@@ -1,0 +1,24 @@
+{
+	"name" : "Python Flask",
+	"services" : [],
+	"type" : "web",
+	"version" : "1.0",
+	"description" : "A simple Python Flask application that will get you up and running quickly.",
+	"smallIcon" : "i-py-f.png",
+	"icon" : "i-py-f.png",
+	"largeIcon" : "i-py-f.png",
+	"featuredIcon" : "i-py-f.png",
+	"buildpack" : "python_buildpack",
+	"system_tags" : ["ibm_community"],
+	"categories" : ["boilerplates"],
+	"metadata" : {
+		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
+	},
+	"source" : {
+		"scmType" : "git",
+		"url" : "https://github.com/IBM-Bluemix/starter-apps.git",
+		"appPath" : "app"
+	},
+	"docURL": "/#starters/python/index.html",
+
+}
