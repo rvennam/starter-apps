@@ -58,6 +58,13 @@ Please open an issue first before starting work on a new starter app.  The
 IBM Bluemix Developer Advocate team would like to review your suggestion
 before you start your work.
 
+## Checklist for getting your new app accepted
+* Following the [naming convention](quickstart.md#Naming Convention)
+* Add a relative link to [README.MD](README.MD) in alphabetical order to your
+new start app in the repo
+* Create a [`metadata.json`](quickstart.md#Metdata) for your new start app
+
+
 ## Submitting Changes
 
 * Push your changes to a topic branch in your fork of the repository.
