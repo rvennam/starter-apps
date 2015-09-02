@@ -59,10 +59,10 @@ IBM Bluemix Developer Advocate team would like to review your suggestion
 before you start your work.
 
 ## Checklist for getting your new app accepted
-* Following the [naming convention](quickstart.md#Naming Convention)
+* Following the [naming convention](quickstart.md#naming-convention)
 * Add a relative link to [README.MD](README.MD) in alphabetical order to your
 new start app in the repo
-* Create a [`metadata.json`](quickstart.md#Metdata) for your new start app
+* Create a [`metadata.json`](quickstart.md#metdata) for your new start app
 
 
 ## Submitting Changes
