@@ -17,7 +17,7 @@
 	"source" : {
 		"scmType" : "git",
 		"url" : "https://github.com/IBM-Bluemix/starter-apps.git",
-		"appPath" : "app"
+		"appPath" : "pythonFlaskStarter/app"
 	},
 	"docURL": "/#starters/python/index.html",
 
