@@ -1,5 +1,4 @@
-
-w to contribute
+# How to contribute
 
 Third-party/individual patches are crucial for keeping our starter apps up to
 date and current.  We need you to help! We want to keep it as easy as possible
@@ -67,5 +66,4 @@ before you start your work.
   meeting that we hold in a public Google Hangout.
 * After feedback has been given we expect responses within two weeks. After two
   weeks we may close the pull request if it isn't showing any activity.
-
 
