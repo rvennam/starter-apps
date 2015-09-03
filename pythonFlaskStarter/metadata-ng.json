@@ -19,6 +19,7 @@
 		"url" : "https://github.com/IBM-Bluemix/starter-apps.git",
 		"appPath" : "pythonFlaskStarter/app"
 	},
-	"docURL": "/#starters/python/index.html"
+	"docURL": "/#starters/python/index.html",
+    "runtime_template_id": "pythonHelloWorld"
 
 }
