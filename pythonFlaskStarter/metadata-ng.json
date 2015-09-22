@@ -2,7 +2,6 @@
 	"name" : "Python Flask",
 	"services" : [],
 	"type" : "web",
-	"version" : "1.0",
 	"description" : "A simple Python Flask application that will get you up and running quickly.",
 	"smallIcon" : "runtime-py-f_24.png",
 	"icon" : "runtime-py-f_32.png",
