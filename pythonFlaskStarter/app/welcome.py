@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import os
-from flask import Flask
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -24,6 +24,14 @@ def Welcome():
 @app.route('/myapp')
 def WelcomeToMyapp():
     return 'Welcome again to my app running on Bluemix!'
+    
+@app.route('/api/people')
+def SayHello():
+    list = [
+        {'name': 'John', 'age': 28},
+        {'name': 'Bill', 'val': 26}
+    ]
+    return jsonify(results=list)
 
 port = os.getenv('PORT', '5000')
 if __name__ == "__main__":
