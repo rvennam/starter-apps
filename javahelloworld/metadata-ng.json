@@ -19,7 +19,7 @@
     },    
     "source": {
         "scmType": "git",
-		"url" : "https://github.com/rvennam/starter-apps.git",
+		"url" : "https://github.com/IBM-Bluemix/starter-apps.git",
 		"appPath" : "javahelloworld/app"
     },
 	"docURL": "/#starters/liberty/index.html#liberty",
