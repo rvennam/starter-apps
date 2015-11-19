@@ -1,16 +1,23 @@
-Servlet Sample
+JavaHelloWorldApp Sample
 ==============
 
 This project contains a simple Servlet application.
 
-## Running in Eclipse
+## Running the Application Locally in Eclipse with Liberty
 
-1. Download and install [Eclipse with the WebSphere Developer Tools](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/).
-2. Create a new Liberty Profile Server. See [step 3](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/) for details.
-3. Clone this repository.
-4. Import the sample into Eclipse using *File -> Import -> Maven -> Existing Maven Projects* option.
-5. Deploy the sample into Liberty server. Right click on the *servlet* sample and select *Run As -> Run on Server* option. Find and select the Liberty profile server and press *Finish*. 
-6. Go to: [http://localhost:9080/servlet](http://localhost:9080/servlet)
+1. Download and install [IBM Eclipse Tools for Bluemix](https://developer.ibm.com/wasdev/downloads/#asset/tools-IBM_Eclipse_Tools_for_Bluemix).
+2. In the Servers view of Eclipse, right-click to create a new WAS Liberty server. Follow the steps in the wizard, which includes the option to download and install the WAS Liberty runtime.
+3. Import this sample into Eclipse using *File -> Import -> Maven -> Existing Maven Projects* option.
+4. Deploy the sample into Liberty server. Right click on the *JavaHelloWorldApp* sample and select *Run As -> Run on Server* option. Find and select the Liberty profile server and press *Finish*. 
+5. Go to: [http://localhost:9080/JavaHelloWorldApp](http://localhost:9080/JavaHelloWorldApp)
+
+## Running the Application in Bluemix using Eclipse
+
+1. Download and install [IBM Eclipse Tools for Bluemix](https://developer.ibm.com/wasdev/downloads/#asset/tools-IBM_Eclipse_Tools_for_Bluemix).
+2. In the Servers view of Eclipse, right-click to create a new IBM Bluemix server. Follow the steps in the wizard.
+3. Import this sample into Eclipse using *File -> Import -> Maven -> Existing Maven Projects* option.
+4. Deploy the sample into Bluemix server. Right click on the *JavaHelloWorldApp* sample and select *Run As -> Run on Server* option. Find and select the Bluemix server and press *Finish*. 
+
 
 ## Running with Maven
 
@@ -23,18 +30,18 @@ Use the following steps to run the application with Maven:
     $ mvn clean install
     ```
 
-2. To run the server with the Servlet sample execute:
+2. To run a local Liberty server with the JavaHelloWorldApp sample execute:
     ```bash
     $ mvn liberty:run-server
     ```
 
-Once the server is running, the application will be available under [http://localhost:9080/servlet](http://localhost:9080/servlet).
+Once the server is running, the application will be available under [http://localhost:9080/JavaHelloWorldApp](http://localhost:9080/JavaHelloWorldApp).
 
-## Deploying to Bluemix
 
-Click the button below to deploy your own copy of this application to [Bluemix](https://bluemix.net).
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/WASdev/sample.servlet.git)
+3. To push the application to Bluemix using the cf command line tool:
+    ```bash
+    $ cf push <appname> -p target/JavaHelloWorldApp.war
+    ```
 
 # Notice
 
